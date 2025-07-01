@@ -42,15 +42,15 @@ class HomeScreen extends StatelessWidget {
               },
               child: Text('DadJokes'),
             ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => FaceDetectionScreen()),
-                );
-              },
-              child: Text('Face Detection'),
-            ),
+            // ElevatedButton(
+            //   onPressed: () {
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(builder: (_) => FaceDetectionScreen()),
+            //     );
+            //   },
+            //   child: Text('Face Detection'),
+            // ),
             ElevatedButton(
               onPressed: () => _logout(context),
               child: Text('Logout'),
